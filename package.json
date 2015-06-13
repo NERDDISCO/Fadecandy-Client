@@ -1,0 +1,27 @@
+{
+  "name": "Fadecandy-Client",
+  "version": "0.0.1",
+  "description": "Handle the communication with a Fadecandy-Server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --reporter spec test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NERDDISCO/Fadecandy-Client"
+  },
+  "keywords": [
+    "Fadecandy",
+    "OPC",
+    "Client"
+  ],
+  "author": "Tim Pietrusky <timpietrusky@gmail.com> (http://timpietrusky.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NERDDISCO/Fadecandy-Client/issues"
+  },
+  "homepage": "https://github.com/NERDDISCO/Fadecandy-Client",
+  "devDependencies": {
+    "should": "~6.0.3"
+  }
+}
